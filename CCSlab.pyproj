@@ -1,0 +1,126 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>0cad6802-ccd0-4f36-be62-28f0e5b25f7c</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Lab9\menu.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>CCSlab</Name>
+    <RootNamespace>CCSlab</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Cha12\img5.py" />
+    <Compile Include="Cha12\img4.py" />
+    <Compile Include="Cha12\img3.py" />
+    <Compile Include="Lab3\CCSlab3-1.py" />
+    <Compile Include="Lab4\CCSlab4-4.py" />
+    <Compile Include="Lab4\CCSlab4-3.py" />
+    <Compile Include="Lab4\CCSlab4-2.py" />
+    <Compile Include="Lab4\CCSlab4-1.py" />
+    <Compile Include="Lab3\CCSlab3-2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-11.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-12.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-13.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-5.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-6.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-7.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-8.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-9.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab3\CCSlab3-10.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab6\CCSlab6.3.3.py" />
+    <Compile Include="Lab6\CCSlab6.3.2.py" />
+    <Compile Include="Lab5\CCSlab5.3.5.py" />
+    <Compile Include="Lab5\CCSlab5.3.4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab6\CCSlab6.3.4.5.py" />
+    <Compile Include="Lab6\CCSlab6.3.4.4.py" />
+    <Compile Include="Lab6\CCSlab6.3.4.3.py" />
+    <Compile Include="Lab6\CCSlab6.3.4.2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab7\ControlObject3.py" />
+    <Compile Include="Lab7\ControlObject22.py" />
+    <Compile Include="Lab7\ControlObject2.py" />
+    <Compile Include="Lab7\ControlObject1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab7\pid.py" />
+    <Compile Include="Lab7\PythonClassDef.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cha12\fileread.py" />
+    <Compile Include="Cha12\filewrite.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cha12\img2.py" />
+    <Compile Include="Cha12\img1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Cha12\iniread.py" />
+    <Compile Include="Cha12\iniwrite.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lab9\menu.py" />
+    <Compile Include="Lab9\button.py" />
+    <Compile Include="Lab9\label.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lab3\" />
+    <Folder Include="Lab4\" />
+    <Folder Include="Lab5\" />
+    <Folder Include="Lab6\" />
+    <Folder Include="Lab9\" />
+    <Folder Include="Lab7\" />
+    <Folder Include="Cha12\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
