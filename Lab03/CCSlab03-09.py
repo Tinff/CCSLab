@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Feb 27 10:43:05 2020
-
-@author: zhangyu
-"""
+#使用时间模块
 
 if __name__ == '__main__':
     import time

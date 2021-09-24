@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Feb 27 09:33:49 2020
-
-@author: zhangyu
-"""
+# 输入某年某月某日，判断这一天是这一年的第几天
 
 def isLeapYear(y):
     return (y%400==0 or (y%4==0 and y%100!=0))
