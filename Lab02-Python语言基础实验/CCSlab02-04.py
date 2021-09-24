@@ -1,4 +1,4 @@
-#coding=gbk
+#coding=utf-8
 # 格式化输出
 print("%d %d %d"%(1,2,3))
 print("%d %d %d"%(1.1,2.5,3.6))
